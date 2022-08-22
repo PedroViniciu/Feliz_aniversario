@@ -6,6 +6,20 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/androidparty" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -15,7 +29,7 @@
         android:textColor="#E91E63"
         android:textSize="48sp"
         tools:layout_editor_absoluteX="128dp"
-        tools:layout_editor_absoluteY="254dp" />
+        tools:layout_editor_absoluteY="104dp" />
 
     <TextView
         android:id="@+id/textView2"
@@ -27,4 +41,5 @@
         android:textSize="48sp"
         tools:layout_editor_absoluteX="238dp"
         tools:layout_editor_absoluteY="657dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
